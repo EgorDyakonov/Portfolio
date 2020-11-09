@@ -1,0 +1,55 @@
+*, :before, :after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 2rem;
+}
+
+body, p {
+	margin: 0;
+}
+
+.screen1 {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 150px;
+}
+
+.screen2 {
+	display: none;
+	padding-top: 150px;
+}
+
+.input_title {
+	margin: auto;
+}
+
+.input_btn {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 40px;
+	margin-right: 14px;
+}
+
+.goScreen2 {
+	height: 40px;
+	width: 50px;
+}
+
+.accounts > div {
+	display: flex;
+	align-items: center;
+}
+
+.accounts > div:not(:last-child) {
+	margin-bottom: 14px;
+}

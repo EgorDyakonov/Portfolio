@@ -1,0 +1,81 @@
+*,
+:before,
+:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.6rem;
+	font-weight: 300;
+	font-family: "PF Encore Sans Pro", sans-serif;
+}
+
+body,
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.col-6 {
+	padding: 0 15px;
+	width: 50%;
+}
+
+.col {
+	padding: 0 15px;
+	max-width: 970px;
+	width: 100%;
+}
+
+.container {
+	padding: 0 3.96%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.row {
+	margin: 0 -15px;
+}
+
+.mgc {
+	margin: auto;
+}
+
+.ai {
+	align-items: center;
+}
+
+.jc {
+	justify-content: center;
+}
+
+.bgPad {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.pointer {
+	cursor: pointer;
+}

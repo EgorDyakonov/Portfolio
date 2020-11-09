@@ -1,0 +1,391 @@
+@import "nullStyle.scss";
+@import "colors.scss";
+
+.headerr {
+    justify-content: space-between;
+    margin: 30px auto;
+    .logoBlock {
+        align-items: center;
+        display: flex;
+        font-size: 2.4rem;
+        font-weight: bold;
+        .logo {
+            margin-right: 10px;
+        }
+    }
+    .comeIn {
+        color: gray;
+        border: 1px solid gray;
+        border-right: none;
+        border-left: none;
+        text-align: right;
+        padding: 10px;
+        .register {
+            padding: 0 10px;
+            border-right: 1px solid gray;
+        }
+    }
+}
+
+.NavBar {
+    background-color: rgb(255, 131, 97);
+    color: $def;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    & div:hover {
+        cursor: pointer;
+        color: rgb(86, 245, 245);
+    }
+    & div {
+        background-color: rgb(255, 131, 97);
+        padding: 1.3%;
+        font-size: 1.5rem;
+    }
+}
+
+.block2 {
+    padding-top: 15%;
+    justify-content: space-between;
+    align-items: center;
+    .cyrcleRL {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        &:hover {
+            border: 2px solid $def;
+            cursor: pointer;
+        }
+        .arrowInL {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-top: 2px solid gray;
+            border-right: 2px solid gray;
+            top: 21px;
+            right: 22px;
+            transform: rotate(45deg);
+        }
+        .arrowInR {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-bottom: 2px solid gray;
+            border-left: 2px solid gray;
+            top: 21px;
+            left: 22px;
+            transform: rotate(45deg);
+        }
+    }
+    .awesomeText {
+        font-weight: bold;
+        color: $def;
+        text-align: center;
+        .child_awesome {
+            color: gray;
+            margin-bottom: 35%;
+            font-size: 1.1rem;
+        }
+        .title_awesome {
+            font-size: 3rem;
+        }
+        .mini {
+            margin-bottom: 60px;
+            margin-top: 60px;
+            & div {
+                width: 13px;
+                height: 13px;
+                border: 2px solid rgb(219, 146, 139);
+                border-radius: 50%;
+                margin: 2px;
+            }
+            & div:last-child {
+                border: 2px solid rgb(97, 118, 181);
+            }
+        }
+    }
+}
+
+.search_block {
+    justify-content: space-between;
+    position: relative;
+    .item_serch {
+        margin: 10px;
+        color: $gray;
+        .lupa {
+            height: 30px;
+            position: absolute;
+            top: -25px;
+            left: 15px;
+        }
+        .low_text {
+            font-size: 2.9rem;
+            font-weight: bold;
+        }
+    }
+    .inp_search {
+        max-width: 630px;
+        width: 100%;
+        height: 50px;
+    }
+    .btn_search {
+        width: 200px;
+        background-color: $orange;
+        border: none;
+        color: $def;
+        font-weight: bold;
+        font-size: 1.7rem;
+        height: 50px;
+    }
+}
+
+.title_benefits {
+    color: $gray;
+    position: relative;
+    .line {
+        height: 3px;
+        width: 20px;
+        background-color: $orange;
+        position: absolute;
+        top: -8px;
+        left: 2px;
+    }
+    .low_text {
+        font-size: 2.9rem;
+        font-weight: bold;
+    }
+}
+
+.UP_ben {
+    margin-top: 35px;
+}
+
+.D_ben {
+    margin-top: 25px;
+}
+
+.D_ben,
+.UP_ben {
+    & img {
+        height: 40px;
+        width: 50px;
+        margin-right: 8%;
+    }
+    & div {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+.mMarg {
+    margin-top: 15px;
+}
+
+.blockArrows {
+    flex-direction: row;
+    .itemArrow {
+        min-width: 8px;
+        min-height: 8px;
+        margin-right: 8px;
+        transform: rotate(45deg);
+        border-top: 2px solid gray;
+        border-right: 2px solid gray;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .btnSale {
+        width: 150px;
+        background-color: $orange;
+        border: none;
+        color: $def;
+        font-weight: bold;
+        font-size: 1.7rem;
+        height: 50px;
+        align-self: flex-end;
+    }
+    .r_col {
+        margin: 0 20px;
+    }
+}
+
+.col_price {
+    margin: 15px;
+    border: 1px solid rgba(232, 236, 235, 1);
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    color: $gray;
+    .howMuch {
+        font-size: 3.6rem;
+        font-weight: bold;
+        color: $gray;
+    }
+    .nameMuch {
+        font-size: 2rem;
+        font-weight: bold;
+        color: $gray;
+    }
+    .price {
+        & div {
+            border-bottom: 1px solid rgba(232, 236, 235, 1);
+            padding: 8px;
+            text-align: center;
+        }
+        & div:last-child {
+            border-bottom: none;
+        }
+    }
+    .btn_plan {
+        background-color: rgb(82, 203, 248);
+        color: $def;
+        padding: 10px 20px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        font-weight: bold;
+        border: none;
+    }
+    .btn_sighUp {
+        background-color: $orange;
+        color: $def;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+    }
+}
+
+.footer {
+    color: rgb(143, 156, 175);
+    .logoDownBlock {
+        align-items: center;
+        display: flex;
+        font-size: 2.4rem;
+        font-weight: bold;
+        color: $def;
+    }
+    .textLogo {
+        color: rgb(143, 156, 175);
+        font-size: 1.6rem;
+        margin-top: 8px;
+    }
+    .socialDark {
+        margin-top: 5px;
+    }
+}
+
+.items_footer {
+    & div {
+        margin: 8px auto;
+    }
+    & div:hover {
+        cursor: pointer;
+        color: $def;
+    }
+    & div span {
+        color: $def;
+    }
+}
+
+@media (max-width: 1050px) {
+    .col-6 {
+        width: 100%;
+        .colArrow {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .rowSale {
+        flex-wrap: wrap;
+        .imgSaleC {
+            flex-direction: column;
+            display: flex;
+            .imgSale {
+                width: 90%;
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+@media only (max-width: 800px) {
+    .col_price {
+        width: 50%;
+    }
+    .benefits {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fw {
+        flex-wrap: wrap;
+    }
+    .D_ben {
+        justify-content: center;
+        width: 70%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .UP_ben {
+        justify-content: center;
+        width: 70%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .block2 {
+        .cyrcleRL {
+            border: 2px solid #222836;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .blockArrows {
+        flex-direction: column;
+        .r_col {
+            margin: 10px 0;
+        }
+        .btnSale {
+            align-self: center;
+        }
+    }
+    .D_ben {
+        width: 100%;
+    }
+    .UP_ben {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .search_block {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .headerr {
+        flex-wrap: wrap;
+        .comeIn {
+            border: none;
+            color: gray;
+            padding: 10px;
+            text-align: left;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 663px) {
+    .r_col {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .r_col {
+        margin: 0;
+    }
+    .comeIn {
+        display: none;
+    }
+}

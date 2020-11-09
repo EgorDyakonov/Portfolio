@@ -1,0 +1,27 @@
+$def: #fff;
+$orange: rgb(255, 131, 97);
+$gray: rgb(94, 107, 115);
+
+.c-def {
+    color: #fff;
+}
+
+.c-gray {
+    color: $gray;
+}
+
+.bgBlue {
+    background-color: rgb(34, 40, 54);
+}
+
+.bgLBlue {
+    background-color: rgb(231, 244, 250);
+}
+
+.bg_footer {
+    background-color: rgb(77, 81, 92);
+}
+
+.bgSale {
+    background-color: rgb(255, 251, 222);
+}
